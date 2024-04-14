@@ -19,15 +19,17 @@ public class ExercicioSalario {
 
         if(salarioBruto <= 1412.00){
 
-            double percentual = (7.50 * salarioBruto) / 100;
+
+            double percentual = (7.50 * salarioBruto) / 100; // valores da % real que o inss desconta do salario
             double salarioLiquido = salarioBruto - percentual;
             System.out.println("Seu salario Bruto é " + salarioBruto);
             System.out.println("Seu salario Liquido é" + salarioLiquido);
 
         } else if (salarioBruto >= 1412.01 && salarioBruto <= 2666.68 ) {
 
-             double percentual = (9 * salarioBruto)/100;
-             double salarioLiquido = salarioBruto - percentual;
+
+            double percentual = (9 * salarioBruto)/100;
+            double salarioLiquido = salarioBruto - percentual;
             System.out.println("Seu salario Bruto é " + salarioBruto);
             System.out.println("Seu salario Liquido é" + salarioLiquido);
 
