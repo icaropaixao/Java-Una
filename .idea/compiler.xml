@@ -9,5 +9,8 @@
         <module name="aula20241" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="PROVAS" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>

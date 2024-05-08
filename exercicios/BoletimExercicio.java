@@ -1,4 +1,4 @@
-package Exercicios;
+package exercicios;
 
 
 import java.util.Scanner;
@@ -17,7 +17,6 @@ public static void main(String[] args) {
         double media = (nota1 + nota2 + nota3) / 3;
 
         System.out.println("A media de suas notas é: " + media);
-
         if(media >= 70 && media <= 100){
             System.out.println(" ALUNO APROVADO");
         } else {
