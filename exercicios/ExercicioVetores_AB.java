@@ -1,7 +1,9 @@
 package exercicios;
 
 public class ExercicioVetores_AB {
+
     public static void main(String[] args) {
+
         // Criando o vetor A com 5 elementos inteiros
         int[] A = {10, 20, 30, 40, 50};
 
@@ -28,6 +30,9 @@ public class ExercicioVetores_AB {
 
         VetoresMultiplicados();
 
+
+        VetoresRaizquadrada();
+
     }
 
     static void VetoresMultiplicados(){
@@ -43,7 +48,32 @@ public class ExercicioVetores_AB {
             System.out.println("Vetor B: " + B[i]);
         }
     }
+
+
+    static void VetoresRaizquadrada(){
+
+            System.out.println("Vetores Quadrados");
+            int[] A = {1,2,3,4,5,6,7,8};
+            int[] B = new int[A.length]; // passando o mesmo tamanho para B
+
+            for(int i = 0; i < A.length; i++){
+                B[i] = A[i] * 2;
+                System.out.print("Vetor A: " + A[i] + " ");
+
+                System.out.println("Vetor B: " + B[i]);
+
+
+            }
+    }
+
+
+
+
+
 }
+
+
+
 
 
 
